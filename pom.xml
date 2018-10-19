@@ -85,11 +85,11 @@
 		<!-- Activiti Cloud -->
 		<dependency>
 			<groupId>org.activiti.cloud</groupId>
-			<artifactId>activiti-cloud-services-query-graphiql</artifactId>
+			<artifactId>activiti-cloud-services-query-graphql-graphiql</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.activiti.cloud</groupId>
-			<artifactId>activiti-cloud-services-query-graphql</artifactId>
+			<artifactId>activiti-cloud-services-query-graphql-web</artifactId>
 		</dependency>
 		<dependency>
 			<groupId>org.activiti.cloud</groupId>
