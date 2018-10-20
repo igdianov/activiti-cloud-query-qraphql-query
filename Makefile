@@ -123,7 +123,8 @@ helm/release: .PHONY
 helm/tag: .PHONY
 	${MAKE_HELM} tag
 	
-tag: helm/tag commit	git tag -fa v$(RELEASE_VERSION) -m "Release version $(RELEASE_VERSION)"
+tag: helm/tag commit
+	git tag -fa v$(RELEASE_VERSION) -m "Release version $(RELEASE_VERSION)"
 	git push origin v$(RELEASE_VERSION)
 	
 reset: .PHONY
