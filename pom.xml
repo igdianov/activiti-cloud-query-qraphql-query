@@ -38,7 +38,7 @@
             <dependency>
                 <groupId>com.introproventures</groupId>
                 <artifactId>graphql-jpa-query-schema</artifactId>
-                <version>0.3.9.0</version>
+                <version>0.3.9-SNAPSHOT</version>
             </dependency>
 
 			<dependency>
