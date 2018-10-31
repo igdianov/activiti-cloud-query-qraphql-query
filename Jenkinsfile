@@ -24,7 +24,7 @@ spec:
     
     environment {
       ORG               = "introproventures"
-      APP_NAME          = "${env.JOB_BASE_NAME}"
+      APP_NAME          = "activiti-cloud-query-graphql-query"
       CHARTMUSEUM_CREDS = credentials("jenkins-x-chartmuseum")
     }
     stages {
