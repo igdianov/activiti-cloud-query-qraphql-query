@@ -61,7 +61,7 @@ spec:
       
       CHART_REPOSITORY  = "http://jenkins-x-chartmuseum:8080" 
 
-      CHARTMUSEUM_GS_BUCKET = "introproventures"
+      CHARTMUSEUM_GS_BUCKET = "$ORG-chartmuseum"
       GITHUB_CHARTS_REPO    = "https://github.com/igdianov/helm-charts.git"
       
     }
@@ -112,7 +112,7 @@ spec:
             sh "make deploy"
             
             // Let's build and push Docker image
-			sh "make skaffold/release"
+			      sh "make skaffold/release"
             
             // Let's release chart into Chartmuseum
             sh "make helm/release"
