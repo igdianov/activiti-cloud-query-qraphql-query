@@ -74,7 +74,7 @@ pipeline {
             sh "make deploy"
             
             // Let's build and push Docker image
-			      sh "make skaffold/release"
+            sh "make skaffold/release"
             
             // Let's release chart into Chartmuseum
             sh "make helm/release"
